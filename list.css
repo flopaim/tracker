@@ -21,7 +21,9 @@ header {
 }
 
 .page {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 1em;
     border-radius: 0.5em;
     border-bottom: 1px dashed hsla(216, 7%, 6%, 1);
@@ -38,5 +40,9 @@ header {
 }
 
 .tags {
-    margin-top: 0.5em;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
 }
+

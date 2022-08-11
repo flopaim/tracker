@@ -37,11 +37,11 @@ nav > a:hover {
 }
 
 .tags > span {
-    display: inline-block;
     border: 1px solid hsla(216, 7%, 22%, 1);
     color: hsla(216, 7%, 50%, 1);
     border-radius: 1em;
-    padding: 0.25em 1em;
+    padding: 0.25em 0.75em;
+    margin: 0.1em;
 }
 
 .artists {
